@@ -3,8 +3,6 @@
 
 docker compose up -d
 
-
-
 # entrer dans le conteneur
 
 docker exec -it www bash

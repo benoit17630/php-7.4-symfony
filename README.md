@@ -14,7 +14,7 @@ symfony new project --webapp
 # vous devez avoir un dossier project 
 cd project
 
-# installer les dépendances qui manque de symfony
+# installer les dépendances qui manquent de symfony
 composer require doctrine/annotations
 
 # aller sur le navigateur et taper l'url http://localhost:8000

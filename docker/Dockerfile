@@ -30,6 +30,7 @@ RUN pecl install apcu && docker-php-ext-enable apcu
 
 WORKDIR /var/www/
 RUN symfony server:ca:install
-RUN git config --global user.email "contact@benoitmenier.fr"
+# initialisation de symfony pour la creation de projet
+RUN git config --global user.email "Votre email pour la creation de projet symfony"
 
 
